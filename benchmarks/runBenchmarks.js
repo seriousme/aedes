@@ -8,7 +8,7 @@ const dirname = import.meta.dirname
 
 const scripts = {
   // server: path.join(dirname, 'server.js'),
-  server: path.join(dirname, '../node_modules/@seriousme/opifex/dist/bin/demoServer.js'),
+  server: path.join(dirname, 'demoServer.js'),
   sender: path.join(dirname, 'sender.js'),
   receiver: path.join(dirname, 'receiver.js'),
   pingpong: path.join(dirname, 'pingpong.js'),
