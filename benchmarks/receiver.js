@@ -68,10 +68,10 @@ client.handleMessage = function (packet, done) {
 }
 
 client.on('offline', function () {
-  console.log('offline')
+  console.error('receiver offline')
 })
 
 client.on('error', function () {
-  console.log('reconnect!')
+  console.error('receiver reconnect!')
   client.stream.end()
 })

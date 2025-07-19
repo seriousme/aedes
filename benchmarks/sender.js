@@ -77,10 +77,10 @@ client.on('connect', function () {
 })
 
 client.on('offline', function () {
-  console.log('offline')
+  console.error('sender offline')
 })
 
 client.on('error', function () {
-  console.log('reconnect!')
+  console.error('sender reconnect!')
   client.stream.end()
 })
