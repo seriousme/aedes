@@ -103,6 +103,7 @@
 	},
 	"devDependencies": {
 		"@fastify/pre-commit": "^2.2.0",
+		"@seriousme/opifex": "^1.9.4",
 		"@sinonjs/fake-timers": "^14.0.0",
 		"@types/node": "^24.0.14",
 		"concat-stream": "^2.0.0",
