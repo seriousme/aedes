@@ -7,7 +7,7 @@ const cpuType = cpus()[0].model.trim()
 const dirname = import.meta.dirname
 
 const scripts = {
-  //server: path.join(dirname, 'server.js'),
+  // server: path.join(dirname, 'server.js'),
   server: path.join(dirname, '../node_modules/@seriousme/opifex/dist/bin/demoServer.js'),
   sender: path.join(dirname, 'sender.js'),
   receiver: path.join(dirname, 'receiver.js'),
